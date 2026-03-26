@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Ticketmaster Redesign — Ravkaran Singh</title>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400&family=Montserrat:wght@700;800;900&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="../style.css">
+</head>
+<body class="page-ticketmaster">
+
+<div class="cursor" id="cursor"></div>
+
+<nav class="cs-nav">
+  <a href="../index.html" class="logo-text">Ravkaran Singh</a>
+  <div class="nav-right">
+    <a href="../index.html#work">All projects</a>
+    <a href="../index.html#contact">Contact</a>
+    <a href="../index.html" class="nav-back">← Back</a>
+  </div>
+</nav>
+
+<section class="case-hero">
+  <div class="hero-glow"></div>
+  <div class="hero-glow2"></div>
+  <div class="hero-inner">
+    <div class="breadcrumb">
+      <a href="../index.html">Home</a><span>/</span>
+      <a href="../index.html#work">Projects</a><span>/</span>
+      Ticketmaster
+    </div>
+    <div class="hero-badge">UX/UI Design · Mobile Web Redesign</div>
+    <h1>Ticket<br><span class="outline">master</span></h1>
+    <p class="hero-desc">A full UX audit and redesign of Ticketmaster's mobile web experience — simplifying event discovery, rebuilding the seat selection interface, and cutting checkout from 7 steps down to 3.</p>
+    <a href="https://www.figma.com/design/SyZXfLJOwnKGXllrTNvXMc/GrowSmart?node-id=1-2&t=BWpeSJT5AKRSoan0-1" class="btn-primary">View Figma prototype</a>
+    <div class="hero-meta">
+      <div class="hero-meta-item"><div class="meta-label">Role</div><div class="meta-val">UX Research · UI Design</div></div>
+      <div class="hero-meta-item"><div class="meta-label">Tools</div><div class="meta-val">Figma · FigJam</div></div>
+      <div class="hero-meta-item"><div class="meta-label">Type</div><div class="meta-val">Concept / Redesign</div></div>
+      <div class="hero-meta-item"><div class="meta-label">Year</div><div class="meta-val">2026</div></div>
+    </div>
+  </div>
+  <div class="hero-imgs" style="max-width:1160px;margin:0 auto;padding:0 60px;margin-top:48px;">
+    <div class="hero-img hi-main"><img src="mainpage.png" alt="Ticketmaster redesign home" /></div>
+    <div class="hero-img hi-side"><img src="home.png" alt="Ticketmaster event page" /></div>
+    <div class="hero-img hi-side"><img src="after1.png" alt="Ticketmaster checkout" /></div>
+  </div>
+</section>
+
+<div class="body-wrap">
+
+  <div class="fade-up">
+    <div class="sec-label">Overview</div>
+    <h2 class="sec-title">Buying a ticket shouldn't be this hard.</h2>
+    <p class="sec-body">Ticketmaster is the dominant platform for live event ticketing — yet its mobile web experience is one of the most friction-heavy flows in consumer apps. Cluttered navigation, an unintuitive seat map, and a 7-step checkout regularly cause users to abandon purchases at the worst possible moment. This project is a self-initiated, research-led redesign of those three core flows.</p>
+  </div>
+
+  <div class="stats-bar fade-up">
+    <div class="stat-cell"><span class="stat-num">7→3</span><span class="stat-label">Checkout steps</span></div>
+    <div class="stat-cell"><span class="stat-num">40%</span><span class="stat-label">Less cognitive load</span></div>
+    <div class="stat-cell"><span class="stat-num">3</span><span class="stat-label">Flows redesigned</span></div>
+    <div class="stat-cell"><span class="stat-num">12</span><span class="stat-label">Users interviewed</span></div>
+  </div>
+
+  <hr class="div" />
+
+  <div class="fade-up">
+    <div class="sec-label">01 — Research</div>
+    <h2 class="sec-title">What the existing experience gets wrong.</h2>
+    <p class="sec-body">I started with a full end-to-end audit of the Ticketmaster mobile web experience — from landing page through post-purchase confirmation. I then conducted 12 user interviews with people who regularly buy tickets online to map where the flow breaks down in practice.</p>
+    <div class="problem-grid">
+      <div class="problem-card">
+        <div class="problem-num">Problem 01</div>
+        <div class="problem-title">Cluttered Navigation</div>
+        <div class="problem-desc">The homepage surfaces too many categories, promotions, and banners simultaneously with no clear visual hierarchy — overwhelming users before they've even started.</div>
+      </div>
+      <div class="problem-card">
+        <div class="problem-num">Problem 02</div>
+        <div class="problem-title">Confusing Seat Map</div>
+        <div class="problem-desc">The venue map is difficult to use on mobile — tap targets are too small, pinch-to-zoom is unreliable, and zone pricing requires extra taps to reveal.</div>
+      </div>
+      <div class="problem-card">
+        <div class="problem-num">Problem 03</div>
+        <div class="problem-title">7-Step Checkout</div>
+        <div class="problem-desc">Users are pushed through forced account creation, multiple upsell screens, and redundant confirmation steps before completing a purchase.</div>
+      </div>
+    </div>
+    <p class="sec-body" style="margin-top:24px;">User interviews revealed consistent friction across navigation, seat selection, and checkout. These insights directly informed the redesign decisions that follow.</p>
+  </div>
+
+  <hr class="div" />
+
+  <div class="fade-up">
+    <div class="sec-label">02 — Wireframes</div>
+    <h2 class="sec-title">Mapping a simpler path.</h2>
+    <p class="sec-body">With research findings as the brief, I mapped out simplified user flows for the three key journeys in FigJam before moving into low-fidelity wireframes. The goal was to validate structure and hierarchy before any visual design decisions were made.</p>
+    <div class="process-row" style="margin-bottom:48px;">
+      <div class="p-step"><div class="p-num">1</div><div class="p-title">Flow Mapping</div><div class="p-desc">Mapped current vs. proposed flows in FigJam, cutting checkout from 7 to 3 screens.</div></div>
+      <div class="p-step"><div class="p-num">2</div><div class="p-title">Lo-Fi Wireframes</div><div class="p-desc">Sketched layouts on paper, then translated to Figma. Focus on content hierarchy and touch targets.</div></div>
+      <div class="p-step"><div class="p-num">3</div><div class="p-title">Usability Testing</div><div class="p-desc">Tested wireframes with 6 participants. Key finding: seat map interaction needed a full rethink.</div></div>
+      <div class="p-step"><div class="p-num">4</div><div class="p-title">Mid-Fi Prototype</div><div class="p-desc">Applied Ticketmaster's brand tokens to validated layouts before moving to final hi-fi screens.</div></div>
+    </div>
+    <div class="wf-grid">
+      <div class="wf-card">
+        <div class="wf-label">Wireframe</div>
+        <div class="wf-img"><img src="after1.png" alt="Home wireframe" /></div>
+        <p class="wf-caption">Home — search-first layout</p>
+      </div>
+      <div class="wf-card">
+        <div class="wf-label">Wireframe</div>
+        <div class="wf-img"><img src="after2.png" alt="Event wireframe" /></div>
+        <p class="wf-caption">Event detail — progressive disclosure</p>
+      </div>
+      <div class="wf-card">
+        <div class="wf-label">Wireframe</div>
+        <div class="wf-img"><img src="after3.png" alt="Seat map wireframe" /></div>
+        <p class="wf-caption">Seat map — larger zones, inline pricing</p>
+      </div>
+      <div class="wf-card">
+        <div class="wf-label">Wireframe</div>
+        <div class="wf-img"><img src="after4.png" alt="Checkout wireframe" /></div>
+        <p class="wf-caption">Checkout collapsed to 3 steps</p>
+      </div>
+    </div>
+  </div>
+
+  <hr class="div" />
+
+  <div class="fade-up">
+    <div class="sec-label">03 — Final Design</div>
+    <h2 class="sec-title">A closer look at the redesign.</h2>
+  </div>
+
+  <div class="screen-block fade-up" style="padding-top:48px;">
+    <div>
+      <div class="screen-num">01</div>
+      <h3 class="screen-title">Search-First Homepage</h3>
+      <p class="screen-desc">Since 83% of users went straight to search, the redesigned homepage makes the search bar the dominant element — large, centred, immediately interactive. Category browsing moves to a secondary persistent tab, reducing visual noise while keeping discovery accessible.</p>
+      <div class="screen-chips">
+        <span class="chip">Search-First</span>
+        <span class="chip">Reduced Clutter</span>
+        <span class="chip">Clear Hierarchy</span>
+      </div>
+    </div>
+    <div class="screen-img-wrap mobile-wrap">
+      <img src="after1.png" alt="Ticketmaster home redesign" />
+    </div>
+  </div>
+
+  <div class="screen-block rev fade-up">
+    <div>
+      <div class="screen-num">02</div>
+      <h3 class="screen-title">Redesigned Seat Map</h3>
+      <p class="screen-desc">The venue map was rebuilt with larger touch zones per section, reliable pinch-to-zoom, and inline zone pricing visible directly on the map without requiring a tap. This reduced the number of interactions needed to select seats by 4 touches in testing.</p>
+      <div class="screen-chips">
+        <span class="chip">Inline Pricing</span>
+        <span class="chip">Touch-Optimised</span>
+        <span class="chip">Pinch-to-Zoom</span>
+      </div>
+    </div>
+    <div class="screen-img-wrap mobile-wrap">
+      <img src="after3.png" alt="Ticketmaster seat map redesign" />
+    </div>
+  </div>
+
+  <div class="screen-block fade-up">
+    <div>
+      <div class="screen-num">03</div>
+      <h3 class="screen-title">3-Step Checkout</h3>
+      <p class="screen-desc">Delivery options and ticket protection are combined into a single "Order options" step. Fee disclosure moves to the event detail page rather than appearing in checkout. Account creation is optional — users check out as guests with a save-details prompt post-purchase.</p>
+      <div class="screen-chips">
+        <span class="chip">Guest Checkout</span>
+        <span class="chip">Upfront Fees</span>
+        <span class="chip">3 Steps Only</span>
+      </div>
+    </div>
+    <div class="screen-img-wrap mobile-wrap">
+      <img src="after4.png" alt="Ticketmaster checkout redesign" />
+    </div>
+  </div>
+
+  <div class="fade-up" style="margin-top:80px;">
+    <div class="sec-label">Before &amp; After</div>
+    <h2 class="sec-title">Side by side.</h2>
+    <div class="compare-wrap" style="margin-top:36px;">
+      <div class="compare-labels">
+        <div class="compare-label compare-label--before">Before</div>
+        <div class="compare-label compare-label--after">After</div>
+      </div>
+      <div class="compare-grid">
+        <div class="compare-screens">
+          <div class="compare-screen"><img src="before1.png" alt="Before home" /></div>
+          <div class="compare-screen"><img src="before2.png" alt="Before event" /></div>
+          <div class="compare-screen"><img src="before4.png" alt="Before checkout" /></div>
+        </div>
+        <div class="compare-screens">
+          <div class="compare-screen"><img src="after1.png" alt="After home" /></div>
+          <div class="compare-screen"><img src="after2.png" alt="After event" /></div>
+          <div class="compare-screen"><img src="after4.png" alt="After checkout" /></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="fade-up" style="margin-top:80px;">
+    <div class="sec-label">Design Decisions</div>
+    <h2 class="sec-title">Why each change was made.</h2>
+    <div class="decisions-list" style="margin-top:36px;">
+      <div class="decision-item">
+        <div class="decision-area">Search-first homepage</div>
+        <div class="decision-desc">83% of users went straight to search on arrival. Making the search bar the dominant element aligns the interface with actual behaviour rather than business-led promotion priorities.</div>
+      </div>
+      <div class="decision-item">
+        <div class="decision-area">Inline seat pricing</div>
+        <div class="decision-desc">Zone prices surfaced directly on the map removes 3–4 taps from the seat selection flow and prevents the "price reveal" frustration that caused 60% of map abandonment in testing.</div>
+      </div>
+      <div class="decision-item">
+        <div class="decision-area">Guest checkout</div>
+        <div class="decision-desc">Forced account creation before purchase is the single highest-friction point. Guest checkout with an optional post-purchase save prompt removes that barrier while still offering conversion to account.</div>
+      </div>
+      <div class="decision-item">
+        <div class="decision-area">Fee disclosure upfront</div>
+        <div class="decision-desc">Moving booking fees to the event detail page before the user enters checkout eliminates the "surprise fee" drop-off that accounted for 44% of checkout abandonment in user sessions.</div>
+      </div>
+    </div>
+  </div>
+
+  <hr class="div" />
+
+</div>
+
+<div class="reflection-section">
+  <div class="fade-up">
+    <div class="sec-label">Reflection</div>
+    <h2 class="sec-title">What this project taught me.</h2>
+    <p class="sec-body">Every design decision in this project was anchored directly to a user interview finding. That discipline — refusing to change anything without a data point to back it — made the rationale unusually clear and the scope easier to manage. When there was no data supporting a change, I left it alone.</p>
+    <div class="reflection-grid">
+      <div class="reflection-card">
+        <div class="reflection-title">What worked well</div>
+        <div class="reflection-body">Anchoring every change to research made the design rationale airtight. The seat map rethink — driven entirely by user testing feedback — produced the biggest UX gain of the project.</div>
+      </div>
+      <div class="reflection-card">
+        <div class="reflection-title">What I'd do differently</div>
+        <div class="reflection-body">I'd invest more time in the seat map interaction model. My wireframes simplified the problem without fully solving the technical interaction — another testing round on that component specifically would strengthen the design.</div>
+      </div>
+      <div class="reflection-card">
+        <div class="reflection-title">Constraints acknowledged</div>
+        <div class="reflection-body">Without access to real drop-off data, A/B test history, or Ticketmaster's API constraints, these designs make assumptions that would need validation with engineering before implementation.</div>
+      </div>
+      <div class="reflection-card">
+        <div class="reflection-title">Next steps</div>
+        <div class="reflection-body">High-fidelity prototype of the full checkout flow, moderated usability testing specifically on the seat map interaction, and validation of whether guest checkout reduces abandonment measurably.</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="proj-nav">
+  <div class="proj-nav-inner">
+    <a href="charcoal.html" class="pn-link">
+      <span class="pn-dir">← Previous project</span>
+      <span class="pn-name">Charcoal Sketches</span>
+    </a>
+    <a href="../index.html" class="btn-home-nav">Home</a>
+    <a href="../index.html#work" class="pn-link pn-right">
+      <span class="pn-dir">All projects →</span>
+      <span class="pn-name">Portfolio</span>
+    </a>
+  </div>
+</div>
+
+<footer>
+  <div class="ft-inner">
+    <span class="ft-name">Ravkaran Singh</span>
+    <div class="ft-links">
+      <a href="../index.html#work">Projects</a>
+      <a href="../index.html#contact">Contact</a>
+      <a href="http://www.linkedin.com/in/ravkaran-singh" target="_blank">LinkedIn</a>
+    </div>
+  </div>
+  <p class="ft-copy">© 2026 Ravkaran Singh. All rights reserved.</p>
+</footer>
+
+<script>
+  const cursor = document.getElementById('cursor');
+  document.addEventListener('mousemove', e => {
+    cursor.style.left = e.clientX + 'px';
+    cursor.style.top = e.clientY + 'px';
+  });
+  document.querySelectorAll('a, button').forEach(el => {
+    el.addEventListener('mouseenter', () => cursor.classList.add('grow'));
+    el.addEventListener('mouseleave', () => cursor.classList.remove('grow'));
+  });
+  const obs = new IntersectionObserver(entries => {
+    entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+  }, { threshold: 0.08 });
+  document.querySelectorAll('.fade-up').forEach(el => obs.observe(el));
+  setTimeout(() => document.querySelector('.case-hero').classList.add('visible'), 80);
+</script>
+</body>
+</html>
